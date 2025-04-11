@@ -3,3 +3,4 @@ C:\RodrigoStuff\LP1\LP1Project\SpeedType\obj\Debug\net8.0\SpeedType.AssemblyInfo
 C:\RodrigoStuff\LP1\LP1Project\SpeedType\obj\Debug\net8.0\SpeedType.AssemblyInfo.cs
 C:\RodrigoStuff\LP1\LP1Project\SpeedType\obj\Debug\net8.0\SpeedType.csproj.CoreCompileInputs.cache
 C:\RodrigoStuff\LP1\LP1Project\SpeedType\obj\Debug\net8.0\SpeedType.sourcelink.json
+C:\RodrigoStuff\LP1\LP1Project\SpeedType\obj\Debug\net8.0\SpeedType.csproj.AssemblyReference.cache

@@ -39,7 +39,7 @@ namespace SpeedType
             {
                 using (StreamReader sr = new StreamReader(filePath))
                 {
-                    int x = 0
+                    int x = 0;
                     while (sr.Peek() >= 0)
                     {
                         sentence[x] = sr.ReadLine();

@@ -106,11 +106,11 @@ namespace SpeedType
 
             // The words per minute (WPM) calculated based on the time taken 
             // and the user input.
-            double wpm = evaluator.CalculateWPM(sentence, timeTaken)
+            double wpm = evaluator.CalculateWPM(sentence, timeTaken);
 
             // The accuracy percentage calculated based on the user's input and
             // the original sentence.
-            int accuracy = evaluator.CalculateAccuracy(sentence, userInput)
+            int accuracy = evaluator.CalculateAccuracy(sentence, userInput);
 
             // Shift existing entries
             for (int i = gameStats.Length - 1; i > 0; i--)
@@ -119,7 +119,7 @@ namespace SpeedType
             }
 
             // Add new result at the beginning
-            gameStats[0] = // ////////// => TO IMPLEMENT <= //////////// //
+            gameStats[0] = 0;
 
             AnsiConsole.MarkupLine("\n[bold yellow]Results:[/]");
             AnsiConsole.MarkupLine($"[bold]Time Taken:[/] {timeTaken:F2} " +
