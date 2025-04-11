@@ -30,9 +30,9 @@ namespace SpeedType
         /// </summary>
         public Game()
         {
-            
-
-
+            sentenceProvider = new SentenceProvider();
+            gameStats = new GameResult();
+            evaluator = new Evaluator();
         }
 
         /// <summary>
@@ -106,16 +106,16 @@ namespace SpeedType
 
             // The words per minute (WPM) calculated based on the time taken 
             // and the user input.
-            double wpm = // ////////// => TO IMPLEMENT <= //////////// //
+            double wpm = evaluator.CalculateWPM(sentence, timeTaken)
 
             // The accuracy percentage calculated based on the user's input and
             // the original sentence.
-            int accuracy = // ////////// => TO IMPLEMENT <= //////////// //
+            int accuracy = evaluator.CalculateAccuracy(sentence, userInput)
 
             // Shift existing entries
             for (int i = gameStats.Length - 1; i > 0; i--)
             {
-                // ////////// => TO IMPLEMENT <= //////////// //
+                
             }
 
             // Add new result at the beginning
