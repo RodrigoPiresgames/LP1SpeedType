@@ -30,7 +30,9 @@ namespace SpeedType
         /// </summary>
         public Game()
         {
-            // ////////// => TO IMPLEMENT <= //////////// //
+            
+
+
         }
 
         /// <summary>
@@ -85,7 +87,7 @@ namespace SpeedType
         private void StartGame()
         {
             // The sentence that will be presented to the player.
-            string sentence = // ////////// => TO IMPLEMENT <= //////////// //
+            string sentence = sentenceProvider.GetRandomSentence();
 
             AnsiConsole.Clear();
             AnsiConsole.MarkupLine("[bold green]Type This Sentence:[/]");

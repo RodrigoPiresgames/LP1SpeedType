@@ -26,7 +26,7 @@ namespace SpeedType
         /// </remarks>
         public SentenceProvider()
         {
-            random = // ////////// => TO IMPLEMENT <= //////////// //
+            random = new();
             
             string directoryPath = Path.GetFullPath(
                 Path.Combine(
@@ -37,7 +37,15 @@ namespace SpeedType
 
             if (File.Exists(filePath))
             {
-                sentences = // ////////// => TO IMPLEMENT <= //////////// //
+                using (StreamReader sr = new StreamReader(filePath))
+                {
+                    int x = 0
+                    while (sr.Peek() >= 0)
+                    {
+                        sentence[x] = sr.ReadLine();
+                        x++;
+                    }
+                }
             }
             else
             {
@@ -55,7 +63,7 @@ namespace SpeedType
         /// </returns>
         public string GetRandomSentence()
         {
-            // ////////// => TO IMPLEMENT <= //////////// //
+            return sentence[random.Next(sentence.Length)];
         }
     }
 }

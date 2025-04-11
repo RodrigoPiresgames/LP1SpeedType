@@ -1,0 +1,5 @@
+C:\RodrigoStuff\LP1\LP1Project\SpeedType\obj\Debug\net8.0\SpeedType.GeneratedMSBuildEditorConfig.editorconfig
+C:\RodrigoStuff\LP1\LP1Project\SpeedType\obj\Debug\net8.0\SpeedType.AssemblyInfoInputs.cache
+C:\RodrigoStuff\LP1\LP1Project\SpeedType\obj\Debug\net8.0\SpeedType.AssemblyInfo.cs
+C:\RodrigoStuff\LP1\LP1Project\SpeedType\obj\Debug\net8.0\SpeedType.csproj.CoreCompileInputs.cache
+C:\RodrigoStuff\LP1\LP1Project\SpeedType\obj\Debug\net8.0\SpeedType.sourcelink.json
